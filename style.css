@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #222;
+  color: #fff;
+  font-family: system-ui;
+}
+.container{
+  width: 85%;
+  margin: auto;
+}
+.header{
+  text-align: center;
+  margin: 10px 0;
+}
+.inputs{
+  display: flex;
+  padding-top: 15px;
+}
+.inputs input{
+  width: 85%;
+  outline: none;
+  border: 0;
+  background: #111;
+  color: #fff;
+  padding: 10px;
+  font-weight: 600;
+}
+.inputs input:focus{
+  background: #000;
+}
+.inputs button{
+  width: 15%;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  outline: none;
+  border: 0;
+}
+.inputs img{
+  width: 30px
+}
+h2{
+  text-align: center;
+  margin: 20px 0;
+}
+.outputs{
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 10px;
+}
+.task{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px;
+}
+.task div{
+  display: flex;
+}
+#doneicon{
+  width: 30px;
+}
+#deleteicon{
+  width: 30px;
+}
+#donebtn{
+  width: 30px;
+  height: 30px;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  outline: none;
+  border: 0;
+  margin-inline: 5px;
+}
+#deletebtn{
+  width: 30px;
+  height: 30px;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  outline: none;
+  border: 0;
+}
